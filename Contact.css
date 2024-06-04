@@ -1,0 +1,104 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 60px 150px;
+}
+.contact-title{
+    position: relative;
+}
+.contact-title h1{
+    padding: 0px 20px;
+    font-size: 60px;
+    font-weight: 400;
+}
+.contact-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.contact-section{
+    display: flex;
+    gap: 130px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-left h1{
+    font-size: 60px;
+    font-weight: 500;
+    background: linear-gradient(270deg, #da7c25 80%,#B923E1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-left p{
+    max-width: 450px;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 25px;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: aliceblue;
+    font-size: 22px;
+}
+.contact-detail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-right label{
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 400;
+}
+.contact-right input{
+    border: none;
+    width: 500px;
+    height: 58px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.contact-right textarea{
+    border: none;
+    width: 500px;
+    padding: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.contact-submit{
+    border: none;
+    color: white;
+    border-radius: 40px;
+    background: linear-gradient(267deg, #da7c25 0.36%,#B923E1 102.06%);
+    font-size: 22px;
+    padding: 10px 50px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
